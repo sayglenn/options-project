@@ -11,7 +11,7 @@ export default function HomeLink() {
 
   return (
     <Link href="/">
-      <div className="mt-6 text-center">
+      <div className="mt-[150px] text-center">
         <p
           className={`text-3xl font-bold transition-all duration-500 ${
             loaded ? "translate-y-0 opacity-100" : "-translate-y-10 opacity-0"
